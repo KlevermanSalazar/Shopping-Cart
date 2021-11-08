@@ -23,4 +23,12 @@ const listProduct=[
         quantity:5,
         stateAdded:false
     },
+    {
+        code:04,
+        src:"../static/images/balonFutbol.jpeg",
+        productName:"Balon de Futbol",
+        price:5000,
+        quantity:50,
+        stateAdded:false
+    },
 ]
