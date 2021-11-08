@@ -40,12 +40,6 @@ function createProducts(){
     })
 }
 createProducts();
-function refreshProduct(){
-    listProduct.forEach((productRefresed)=>{
-        listProduct.splice(listProduct[productRefresed]);
-        console.log(listProduct);
-    })
-}
 function addProductCart(event){
     const idProductAdded=event.target.getAttribute("id_product");
     if(listProduct[idProductAdded-1].stateAdded==false){
